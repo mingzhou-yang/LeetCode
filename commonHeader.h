@@ -8,6 +8,7 @@
 #ifndef COMMONHEADER_H_
 #define COMMONHEADER_H_
 
+#include <string.h>
 #include <algorithm>
 #include <iostream>
 #include <fstream>
@@ -172,5 +173,6 @@ void printVector(vector<TreeNode *> v){
 		if (b>=a&&b>=c) return b;
 		else return c;
 	}
+
 
 #endif /* COMMONHEADER_H_ */
