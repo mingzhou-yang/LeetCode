@@ -30,8 +30,8 @@
 		vector<vector<int>> right = pathSum(root->right, sum-root->val);
 		for(int i=0;i<left.size();i++) left[i].insert(left[i].begin(), root->val);
 		for(int i=0;i<right.size();i++) right[i].insert(right[i].begin(), root->val);
-		ret.insert(ret.begin(), left.begin(), left.end());
-		ret.insert(ret.begin(), right.begin(), right.end());
+//		ret.insert(ret.begin(), left.begin(), left.end());
+//		ret.insert(ret.begin(), right.begin(), right.end());
 		return ret;
     }
 #endif /* PATHSUM_H_ */
